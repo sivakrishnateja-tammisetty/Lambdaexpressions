@@ -1,0 +1,18 @@
+LAMBDA EXPRESSION(C++11):
+  .Lambda functions are nameless functions.
+  .Lambda expression are used to create anonymous functions that can be used as arguments in other functions or used directly in your code.
+
+
+SYNTAX: [capture list](parameters){body}
+
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+auto sum=[](int a,int b){return a+b;};
+int main() {
+ int a=2,b=5;
+ cout<<sum(a,b)<<endl;
+return 0;
+}
